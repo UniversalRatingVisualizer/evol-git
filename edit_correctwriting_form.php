@@ -54,7 +54,6 @@ require_once($CFG->dirroot . '/blocks/formal_langs/block_formal_langs.php');
                                      'wherepichintpenalty' => array('default' => 1.1, 'advanced' => false, 'min' => 0, 'max' => 2)      // "Where" picture hint penalty.
                                      );
 
-    private $analyzers = null;
     /** Contains list of answer ids, that should be hidden
      *  @var array of hidden descriptions
      */
