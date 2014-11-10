@@ -113,10 +113,6 @@ class qtype_correctwriting_hintwheretxt extends qtype_specific_hint {
     /** @var token(s) descriptions for the hint or value if no description available. */
     protected $token = '';
 
-    public function hint_type() {
-        return qtype_specific_hint::CHOOSEN_MULTIPLE_INSTANCE_HINT;
-    }
-
     /**
      * Constructs hint object, remember question to use.
      * @var qtype_correctwriting_response_mistake $mistake.
