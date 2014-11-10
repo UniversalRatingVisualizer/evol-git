@@ -110,10 +110,6 @@ class qtype_correctwriting_hintwhatis extends qtype_specific_hint {
  */
 class qtype_correctwriting_hintwheretxt extends qtype_specific_hint {
 
-    /**
-     * @var qtype_correctwriting_response_mistake, with which this hint is associated.
-     */
-    protected $mistake;
     /** @var token(s) descriptions for the hint or value if no description available. */
     protected $token = '';
 
