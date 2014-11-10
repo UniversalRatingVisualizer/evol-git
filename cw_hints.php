@@ -194,8 +194,6 @@ class qtype_correctwriting_hintwherepic extends qtype_specific_hint {
      * @var qtype_correctwriting_sequence_mistake
      */
     protected $mistake;
-    /** @var token(s) descriptions for the hint or value if no description available */
-    protected $token = '';
 
     public function hint_type() {
         return qtype_specific_hint::CHOOSEN_MULTIPLE_INSTANCE_HINT;
